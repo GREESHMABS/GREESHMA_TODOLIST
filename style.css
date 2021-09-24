@@ -1,0 +1,113 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-size: cover;
+}
+header{
+    background-color:black;
+    opacity: 0.5;
+    height: 4em;
+}
+.head-tag{
+    float: right;
+    margin-top: 1%;
+    margin-right: 42%;
+}
+.head-tag a{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+    border: 2px solid green;
+    border-radius: 25%;
+    padding: 8px;
+    margin-right: 8px;
+}
+.head-tag a:hover{
+    background-color: gray;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+.login{
+    border: 2px solid green;
+    float: right;
+    background-color: rgb(78, 99, 116);
+    border-radius: 15%;
+    height: 15em;
+    width: 15%;
+   margin-top: 10%;
+   margin-right: 39%;
+   padding: 2.5%;
+}
+.loginHead{
+    text-align: center;
+    height: 1.5em;
+    color: white;
+    font-weight: bold;
+    font-size: 125%;
+}
+.login #submit{
+    width: 92%;
+    height: 1.8em;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+}
+.login a{
+    color: yellowgreen;
+}
+.heading{
+    text-align: center;
+    margin-top: 2%;
+}
+.btn{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    border: 2px solid green;
+    border-radius: 25%;
+    background-color: transparent;
+    padding: 8px;  
+    margin-right: 8px;
+    color:white;
+}
+.btn:hover{
+    background-color: gray;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+} 
+ul{
+    font-size: 120%;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://image.freepik.com/free-photo/blue-concrete-textured-background_53876-63608.jpg);
+}
+#demo{
+    margin-top: 1%;
+    list-style: none;
+}
+ul li{
+    margin-bottom: 1.5%;
+    border-bottom: solid 1px gray;
+    margin: 2%;
+}
+input[type="checkbox"]{
+    cursor: pointer;  
+}
+
+input[type="text"]{
+    width: 90%;
+}
+
+input[type="password"]{
+    width: 90%;
+}
+
+label{
+font-size: 100%;
+font-weight: normal;
+color: black;
+}
